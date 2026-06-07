@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+httpx
+pydantic-settings
+sqlalchemy[asyncio]
+asyncpg
+langgraph
+langchain-openai
+langchain-anthropic
+langfuse
+celery
+redis
+openai
+PyJWT
+cryptography
+prometheus-fastapi-instrumentator

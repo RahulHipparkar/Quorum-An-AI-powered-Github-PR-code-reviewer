@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Playwright / browser-use
+playwright-report/
+.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+

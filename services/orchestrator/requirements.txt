@@ -8,11 +8,8 @@ langgraph
 langchain-openai
 langchain-anthropic
 langfuse
-anthropic
-celery
-redis
 openai
+anthropic
 PyJWT
 cryptography
 prometheus-fastapi-instrumentator
-alembic

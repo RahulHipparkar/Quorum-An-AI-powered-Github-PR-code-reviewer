@@ -48,6 +48,7 @@ async def analyze_pr(request: AnalyzeRequest):
                     severity = f.get("severity"),
                     message = f.get("message"),
                     agent = f.get("agent"),
+                    diff = diff,
                 )
             )
         await session.commit()

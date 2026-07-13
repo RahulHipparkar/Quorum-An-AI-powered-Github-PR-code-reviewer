@@ -29,6 +29,7 @@ class Finding(Base):
     severity = Column(Text, nullable = True)
     message = Column(Text, nullable = True)
     agent = Column(Text, nullable = True)
+    diff = Column(Text, nullable = True)
     created_at = Column(TIMESTAMP(timezone=True), server_default=func.now())
 
 class Pattern(Base):

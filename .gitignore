@@ -236,3 +236,4 @@ playwright-report/
 .vscode/
 .idea/
 
+infra/k8s/secret.yaml

@@ -237,3 +237,7 @@ playwright-report/
 .idea/
 
 infra/k8s/secret.yaml
+
+*.tfstate
+*.tfstate.*
+.terraform/

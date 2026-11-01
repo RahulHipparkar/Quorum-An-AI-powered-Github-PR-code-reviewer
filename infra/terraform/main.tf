@@ -271,7 +271,7 @@ resource "aws_iam_role_policy_attachment" "lbc" {
 }
 
 resource "aws_s3_bucket" "reports" {
-  bucket = "ai-code-reviewer-reports"
+  bucket = "ai-code-reviewer-reports-117891393973"
 
   tags = {
     Environment = var.environment
